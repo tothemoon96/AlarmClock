@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <CheckBox
+        android:id="@+id/alarmCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:onClick="false"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:text="响铃"
+  	/>
+    <CheckBox
+        android:id="@+id/alarmRepeatBox"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:onClick="false"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:text="重复"
+  	/>
+    <View  
+  		android:layout_width="3px"  
+	    android:layout_height="fill_parent" 
+	    android:onClick="false"
+	    android:focusableInTouchMode="false"
+        android:focusable="false"
+	   	android:background="?android:attr/listDivider"  
+	/>  
+
+    <TextView
+        android:id="@+id/alarmTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_weight="0.81"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="false"
+        android:textSize="35dp" />
+
+</LinearLayout>

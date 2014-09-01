@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <HorizontalScrollView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    >
+        <RadioGroup
+	        android:id="@+id/rg"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left"
+	        android:orientation="horizontal" >
+
+			<RadioButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18dp" 
+				android:id="@+id/monday"
+				android:text="周一"
+			/>
+			<RadioButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18dp" 
+				android:id="@+id/tuesday"
+				android:text="周二"
+			/>
+			<RadioButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18dp" 
+				android:id="@+id/wednesday"
+				android:text="周三"
+			/>
+			<RadioButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18dp" 
+				android:id="@+id/thursday"
+				android:text="周四"
+			/>
+			<RadioButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18dp" 
+				android:id="@+id/friday"
+				android:text="周五"
+			/>
+			<RadioButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18dp" 
+				android:id="@+id/saturday"
+				android:text="周六"
+			/>
+			<RadioButton android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18dp" 
+				android:id="@+id/sunday"
+				android:text="周日"
+			/>
+		</RadioGroup>
+	</HorizontalScrollView>
+
+    <TimePicker
+        android:id="@+id/timepicker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+</LinearLayout>
